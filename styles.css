@@ -1,0 +1,91 @@
+body{
+    text-align: center;
+    background-color:  hsl(185, 75%, 39%);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    overflow: hidden;
+}
+
+.topBgImg{
+    position: absolute;
+    right: 90rem;
+    bottom: 20rem;
+}
+
+.card{
+    position: relative;
+    background-color: white;
+    display: inline-block;
+    border-radius: 1rem;
+    top: 15rem;
+}
+
+.topArea{
+    background-color: white;
+}
+
+.patternImage{
+    display: flex;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.personImage{
+    position: relative;
+    display: flex;
+    bottom: 3rem;
+    margin: 0 auto;
+    border-radius: 3rem;
+    border-color: white;
+    border-style: solid;
+}
+
+.nameText{
+    font-size: 1.25rem;
+    color: black;
+    display: inline;
+}
+
+.ageText{
+    font-size: 1.25rem;
+    color: gray;
+    display: inline;
+}
+
+.locationText{
+    font-size: 1.25rem;
+    color: gray;
+}
+
+.divider{
+    border-style: none;
+    height: 0.05rem;
+    opacity: 0.4;
+    background-color: gray;
+}
+
+.socialTable{
+    margin: 0 auto;
+}
+
+.socialSection{
+    padding: 0 1rem;
+    width: 65px;
+}
+
+.socialNumber{
+    font-size: 1.25rem;
+    color: black;
+}
+
+.socialLabel{
+    font-weight: lighter;
+    font-size: 0.75rem;
+    color: gray;
+}
+
+.bottomBgImg{
+    position: absolute;
+    left: 90rem;
+    top: 20rem;
+    overflow: hidden;
+}
